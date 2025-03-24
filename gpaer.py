@@ -241,7 +241,7 @@ elif modulos == 'Acompanhamento PTA DIRAD':
                             lista_secao.append(secao)
                         if subsecao not in lista_subsecao:
                             st.write(f'>> **{subsecao}**')
-                            lista_secao.append(subsecao)
+                            lista_subsecao.append(subsecao)
                         st.write(tipo)
                         if filtro_tipo == 'Atividade:':
                             st.write(item_controle)
